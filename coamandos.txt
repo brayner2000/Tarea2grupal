@@ -1,0 +1,19 @@
+Comandos Utilizados: 
+git version
+git init
+git status -s
+git add .
+git commit -m "primer_commit"
+/* revertir */
+git log --oneline
+git reset --hard ae5536
+
+/* publicar en github */
+git remote add origin https://github.com/carpaiz/c_poo.git
+git push -u origin master
+/*publicar cambio en github*/
+git push
+/*compara*/
+git fetch
+/* extrae los directorios de github */
+git pull
